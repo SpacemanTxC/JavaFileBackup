@@ -18,6 +18,7 @@ class Language{
   }
 
   public static void main(String[] args){
+    //lang objects 
     Language english = new Language("English", 500000000, "USA, England, and Canada", "Subject-Object-Verb");
     english.getInfo();
 
